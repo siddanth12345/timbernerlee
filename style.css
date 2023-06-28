@@ -1,0 +1,70 @@
+body{
+    margin:0;
+    padding-top:800px;
+    text-align:center;
+}
+
+.profile {
+    border-radius:50%;
+}
+
+#welcome {
+    position: absolute;
+    bottom:0;
+    background: linear-gradient(cyan 0%, green 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+h1{
+    font-size:40px;
+    font-weight: 300;
+}
+
+h2{
+    font-size: 30px;
+    font-weight: 300;
+}
+
+#name{
+    font-size:50px;
+}
+
+#bio{
+    padding: 50px;
+}
+
+.parallax-inner{
+    display: table-cell;
+    vertical-align: middle;
+}
+.menu{
+    position: fixed;
+ background:white;
+width: 100%;
+margin-top: 0px;
+top: 0px;
+z-index: 10;
+}
+.links{
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-size: 20px;
+    text-decoration: underline;
+}
+.links:hover {
+    font-size: 25px;
+    text-decoration: underline;
+}
+#writings a{
+    text-decoration: underline !important;
+    color: lime !important;
+}
+#contact{
+    background: lightgrey;
+}
+.contact_1 h3{
+    display :inline;
+}
